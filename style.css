@@ -1,3 +1,4 @@
+/* Global CSS */
 *{
     box-sizing: border-box;
 }
@@ -5,6 +6,7 @@ body {
     background: #10101B;
     height: 100vh;
 }
+/* container layout */
 .container {
     margin-top: 30px;
 }
@@ -63,18 +65,19 @@ width: 100%;
 }
 
 .button {
-width: 20%;
-background: #425062;
-color: #fff;
-padding: 20px 0;
-margin: 5px;
-display: inline-block;
-font-size: 25px;
-text-align: center;
-vertical-align: middle;
-margin-right: -4px;
-border-radius: 10px;
-cursor: pointer;
+    user-select: none;
+    width: 20%;
+    background: #425062;
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: -4px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .blink-me {
 color: #E0B612;
@@ -98,8 +101,9 @@ color: #E0B612;
     display: none;
 }
 .notify-section{
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
+   
 }
 .action-left {
     color: #FF3C5F;
